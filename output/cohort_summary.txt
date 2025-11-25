@@ -1,0 +1,16 @@
+
+    ZOOM TOWN HIERARCHY SUMMARY
+    ===========================
+    Analysis Date: 2025-10-31
+    
+    Cohort A: Wealth Exporters (The Core):
+      - Mean Growth: 35.65%
+      - Range: 17.56% to 42.53%
+
+    Cohort B: Major Sunbelt Hubs (Urban Importers):
+      - Mean Growth: 45.66%
+      - Range: 29.75% to 55.68%
+
+    Cohort C: Nature Enclaves (Scenic Importers):
+      - Mean Growth: 53.45%
+      - Range: 40.12% to 74.02%

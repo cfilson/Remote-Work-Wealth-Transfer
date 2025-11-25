@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   ZHVI   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.099
+Date:                Sun, 23 Nov 2025   Prob (F-statistic):              0.298
+Time:                        22:30:03   Log-Likelihood:                -870.26
+No. Observations:                  64   AIC:                             1745.
+Df Residuals:                      62   BIC:                             1749.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             4.578e+05   2.52e+04     18.134      0.000    4.07e+05    5.08e+05
+NetMigrationRate -4404.9415   4201.340     -1.048      0.298   -1.28e+04    3993.417
+==============================================================================
+Omnibus:                       11.680   Durbin-Watson:                   0.464
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.903
+Skew:                           0.949   Prob(JB):                      0.00260
+Kurtosis:                       3.929   Cond. No.                         6.14
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
