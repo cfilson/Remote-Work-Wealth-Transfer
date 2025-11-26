@@ -16,7 +16,7 @@ This document outlines the technical stack and data analytical methodologies emp
 *   **Skills Demonstrated:**
     *   **ETL Pipelines:** Automated the ingestion of raw CSVs and JSON API responses.
     *   **Fuzzy Matching:** Implemented logic to map inconsistent city names (e.g., mapping Zillow's "Bend, OR" to the analysis cohort's "Bend-Redmond, OR").
-    *   **Time-Series Normalization:** Applied a "Difference-in-Differences" style normalization, indexing all housing price series to $t=0$ at March 2020 to isolate the post-pandemic shock.
+    *   **Time-Series Normalization:** Applied a "Comparative Event Study" style normalization, indexing all housing price series to $t=0$ at March 2020 to isolate the post-pandemic shock.
     *   **Reshaping:** Used `pd.melt()` to transform wide-format Zillow data into long-format time series for analysis.
     *   **Merging:** Performed inner joins between distinct datasets (Migration vs. Housing) based on composite keys (`Year`, `City`).
 
@@ -31,7 +31,7 @@ This document outlines the technical stack and data analytical methodologies emp
 *   **Skills Demonstrated:**
     *   **OLS Regression:** Utilized `statsmodels.api` to run an Ordinary Least Squares regression (`Price ~ Net_Migration_Rate`).
     *   **Hypothesis Testing:** Analyzed Beta coefficients, P-values, and R-squared statistics to confirm the negative correlation between pre-pandemic prices and migration.
-    *   **Parallel Trends:** Conducted a "Placebo Test" on 2010-2019 data to validate the assumptions of the causal inference model.
+    *   **Parallel Trends:** Conducted a "Placebo Test" on 2010-2019 data to validate the pre-shock stability of the comparative cohorts.
 
 ### 5. Data Visualization (Matplotlib)
 *   **Application:** Creating publication-ready charts to communicate findings.
