@@ -3,7 +3,7 @@
 ## Overview
 This document outlines the technical stack and data analytical methodologies employed in the "Great Reshuffling" project. The analysis was conducted entirely in **Python**, utilizing a modern data science stack to perform ETL (Extract, Transform, Load), econometric modeling, and visualization.
 
-## 🛠️ Technical Stack & Skills Applied
+## Technical Stack & Skills Applied
 
 ### 1. Python Programming (Core Logic)
 *   **Application:** Used as the primary language for all data engineering and analysis.
